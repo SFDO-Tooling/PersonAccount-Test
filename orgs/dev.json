@@ -1,7 +1,6 @@
 {
   "orgName": "PersonAccount-Test - Dev Org",
   "edition": "Developer",
-  "templateId": "0TTB0000001XG75",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -21,5 +20,6 @@
     "languageSettings": {
       "enableTranslationWorkbench": true
     }
-  }
+  },
+  "template": "0TTB0000001XG75"
 }

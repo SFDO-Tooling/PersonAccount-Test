@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.76.0'
+project:
+    name: PersonAccount-Test
+    package:
+        name: PersonAccount-Test
+        api_version: '59.0'
+    git:
+        default_branch: 'main'
+        prefix_feature: 'feature/'
+        prefix_beta: 'beta/'
+        prefix_release: 'release/'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/PersonAccount-Test/tests
+            options:
+                outputdir: robot/PersonAccount-Test/results
+
+    robot_testdoc:
+        options:
+            path: robot/PersonAccount-Test/tests
+            output: robot/PersonAccount-Test/doc/PersonAccount-Test_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

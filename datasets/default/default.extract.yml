@@ -1,0 +1,350 @@
+extract:
+  Account:
+    fields:
+    - Description
+    - Fax
+    - Name
+    - AccountNumber
+    - Phone
+    - Rating
+    - Site
+    - AccountSource
+    - Type
+    - AnnualRevenue
+    - PersonAssistantName
+    - PersonAssistantPhone
+    - BillingCity
+    - BillingCountry
+    - BillingGeocodeAccuracy
+    - BillingLatitude
+    - BillingLongitude
+    - BillingState
+    - BillingStreet
+    - BillingPostalCode
+    - PersonBirthdate
+    - CleanStatus
+    - DandbCompanyId
+    - DunsNumber
+    - Jigsaw
+    - PersonDepartment
+    - PersonDoNotCall
+    - PersonEmail
+    - PersonEmailBouncedDate
+    - PersonEmailBouncedReason
+    - PersonHasOptedOutOfEmail
+    - NumberOfEmployees
+    - PersonHasOptedOutOfFax
+    - FirstName
+    - PersonGenderIdentity
+    - PersonHomePhone
+    - PersonIndividualId
+    - Industry
+    - LastName
+    - PersonLeadSource
+    - PersonMailingCity
+    - PersonMailingCountry
+    - PersonMailingGeocodeAccuracy
+    - PersonMailingLatitude
+    - PersonMailingLongitude
+    - PersonMailingState
+    - PersonMailingStreet
+    - PersonMailingPostalCode
+    - PersonMobilePhone
+    - NaicsCode
+    - NaicsDesc
+    - OperatingHoursId
+    - PersonOtherCity
+    - PersonOtherCountry
+    - PersonOtherGeocodeAccuracy
+    - PersonOtherLatitude
+    - PersonOtherLongitude
+    - PersonOtherPhone
+    - PersonOtherState
+    - PersonOtherStreet
+    - PersonOtherPostalCode
+    - Ownership
+    - ParentId
+    - PersonPronouns
+    - RecordTypeId
+    - Salutation
+    - ShippingCity
+    - ShippingCountry
+    - ShippingGeocodeAccuracy
+    - ShippingLatitude
+    - ShippingLongitude
+    - ShippingState
+    - ShippingStreet
+    - ShippingPostalCode
+    - Sic
+    - SicDesc
+    - TickerSymbol
+    - PersonTitle
+    - Tradestyle
+    - Website
+    - YearStarted
+  Individual:
+    fields:
+    - LastName
+  OperatingHours:
+    fields:
+    - Name
+    - TimeZone
+  WorkBadgeDefinition:
+    fields:
+    - IsActive
+    - Name
+    - IsCompanyWide
+    - Description
+    - ImageUrl
+    - LimitNumber
+    - IsLimitPerUser
+    - LimitStartDate
+  BusinessHours:
+    fields:
+    - IsActive
+    - Name
+    - IsDefault
+    - FridayEndTime
+    - FridayStartTime
+    - MondayEndTime
+    - MondayStartTime
+    - SaturdayEndTime
+    - SaturdayStartTime
+    - SundayEndTime
+    - SundayStartTime
+    - ThursdayEndTime
+    - ThursdayStartTime
+    - TimeZoneSidKey
+    - TuesdayEndTime
+    - TuesdayStartTime
+    - WednesdayEndTime
+    - WednesdayStartTime
+  Contact:
+    fields:
+    - AccountId
+    - AssistantName
+    - AssistantPhone
+    - Birthdate
+    - Fax
+    - Phone
+    - CleanStatus
+    - Description
+    - Jigsaw
+    - Department
+    - DoNotCall
+    - Email
+    - EmailBouncedDate
+    - EmailBouncedReason
+    - HasOptedOutOfEmail
+    - HasOptedOutOfFax
+    - FirstName
+    - GenderIdentity
+    - HomePhone
+    - IndividualId
+    - LastName
+    - LeadSource
+    - MailingCity
+    - MailingCountry
+    - MailingGeocodeAccuracy
+    - MailingLatitude
+    - MailingLongitude
+    - MailingState
+    - MailingStreet
+    - MailingPostalCode
+    - MobilePhone
+    - OtherCity
+    - OtherCountry
+    - OtherGeocodeAccuracy
+    - OtherLatitude
+    - OtherLongitude
+    - OtherPhone
+    - OtherState
+    - OtherStreet
+    - OtherPostalCode
+    - Pronouns
+    - ReportsToId
+    - Salutation
+    - Title
+  WebLink:
+    fields:
+    - OpenType
+    - LinkType
+    - ScontrolId
+    - Description
+    - DisplayType
+    - Height
+    - MasterLabel
+    - EncodingKey
+    - Name
+    - PageOrSobjectType
+    - IsProtected
+    - RequireRowSelection
+    - IsResizable
+    - ShowsLocation
+    - HasMenubar
+    - HasScrollbars
+    - ShowsStatus
+    - HasToolbar
+    - Url
+    - Width
+    - Position
+  EmailTemplate:
+    fields:
+    - ApiVersion
+    - IsActive
+    - RelatedEntityType
+    - Description
+    - Body
+    - Name
+    - Encoding
+    - EnhancedLetterheadId
+    - FolderId
+    - HtmlValue
+    - BrandTemplateId
+    - Markup
+    - TemplateStyle
+    - Subject
+    - TemplateType
+    - DeveloperName
+    - UiType
+  EnhancedLetterhead:
+    fields:
+    - Name
+  BrandTemplate:
+    fields:
+    - Name
+    - Value
+  Asset:
+    fields:
+    - Name
+  ContentAsset:
+    fields:
+    - MasterLabel
+    - DeveloperName
+  AssetWarranty:
+    fields:
+    - AssetId
+    - StartDate
+  ContractLineItem:
+    fields:
+    - PricebookEntryId
+    - Quantity
+    - UnitPrice
+    - ServiceContractId
+  PricebookEntry:
+    fields:
+    - IsActive
+    - UnitPrice
+    - UseStandardPrice
+    - Pricebook2Id
+    - Product2Id
+  ServiceContract:
+    fields:
+    - Name
+  DandBCompany:
+    fields:
+    - DunsNumber
+    - Name
+  Entitlement:
+    fields:
+    - AccountId
+    - AssetId
+    - AssetWarrantyId
+    - BusinessHoursId
+    - CasesPerEntitlement
+    - ContractLineItemId
+    - EndDate
+    - Name
+    - SlaProcessId
+    - LocationId
+    - SvcApptBookingWindowsId
+    - IsPerIncident
+    - RemainingCases
+    - RemainingWorkOrders
+    - ServiceContractId
+    - StartDate
+    - Type
+    - WorkOrdersPerEntitlement
+  Location:
+    fields:
+    - Name
+  FieldServiceMobileSettings:
+    fields:
+    - BrandInvertedColor
+    - AscCancellationTimerInSec
+    - IsSendLocationHistory
+    - IsTimeZoneEnabled
+    - AscCompletedStatus
+    - ContrastInvertedColor
+    - ContrastPrimaryColor
+    - ContrastQuaternaryColor
+    - ContrastQuinaryColor
+    - ContrastSecondaryColor
+    - ContrastTertiaryColor
+    - DaysAfterCurrentServiceDate
+    - DaysBeforeCurrentServiceDate
+    - DefaultListViewDeveloperName
+    - DeveloperName
+    - IsScheduleViewResourceAbsences
+    - IsShowEditFullRecord
+    - IsLimitedLocTrackingEnabled
+    - IsTimeSheetEnabled
+    - IsAscTimeLimitEnabled
+    - FeedbackPrimaryColor
+    - FeedbackSecondaryColor
+    - FeedbackSelectedColor
+    - QuickStatusChangeFlowName
+    - FutureDaysInDatePicker
+    - GeoLocationAccuracy
+    - BgGeoLocationAccuracy
+    - GeoLocationMinUpdateFreqMins
+    - BgGeoLocationMinUpdateFreqMins
+    - MasterLabel
+    - IsOptimizedImageUploadEnabled
+    - Language
+    - MaxNumberOfServiceAppointments
+    - OptimizeImageSizeInMb
+    - MetadataCacheTimeDays
+    - NavbarBackgroundColor
+    - NavbarInvertedColor
+    - AscOnSiteStatus
+    - PastDaysInDatePicker
+    - TimeIntervalSetupMins
+    - PrimaryBrandColor
+    - AscRadiusInMeters
+    - RecordDataCacheTimeMins
+    - UpdateScheduleTimeMins
+    - SecondaryBrandColor
+    - IsAssignmentNotification
+    - IsDispatchNotification
+    - AscAutomaticMode
+    - AscTimeLimitationInMin
+    - AscTravelStatus
+  Folder:
+    fields:
+    - AccessType
+    - ParentId
+    - DeveloperName
+    - Name
+    - IsReadonly
+    - Type
+  MilestoneType:
+    fields:
+    - Description
+    - Name
+    - RecurrenceType
+  ContentWorkspace:
+    fields:
+    - ShouldAddCreatorMembership
+    - WorkspaceImageId
+    - Description
+    - Name
+    - DeveloperName
+  Pricebook2:
+    fields:
+    - IsActive
+    - Description
+    - Name
+  Product2:
+    fields:
+    - Name

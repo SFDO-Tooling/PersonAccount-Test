@@ -1,0 +1,220 @@
+# Editing this file is usually not recommended because it will
+# be overwritten the next time you re-capture this data.
+#
+# You can change this file's contents permanently by creating a
+# .load.yml file and re-capturing:
+#
+#  https://cumulusci.readthedocs.io/en/stable/data.html#extracting-and-loading-sample-datasets
+Insert Case:
+  sf_object: Case
+  table: Case
+Insert Individual:
+  sf_object: Individual
+  table: Individual
+  fields:
+  - LastName
+Insert OperatingHours:
+  sf_object: OperatingHours
+  table: OperatingHours
+  fields:
+  - Description
+  - Name
+  - TimeZone
+Insert Contact:
+  sf_object: Contact
+  table: Contact
+  fields:
+  - AssistantName
+  - AssistantPhone
+  - Birthdate
+  - DeceasedDate
+  - Department
+  - Description
+  - DoNotCall
+  - Email
+  - EmailBouncedDate
+  - EmailBouncedReason
+  - Fax
+  - FirstName
+  - Gender
+  - GenderIdentity
+  - HasOptedOutOfEmail
+  - HasOptedOutOfFax
+  - HealthCloudGA__ConditionStatus__c
+  - HealthCloudGA__ConvertedReferrals__c
+  - HealthCloudGA__CountryOfBirth__c
+  - HealthCloudGA__CreatedFromLead__c
+  - HealthCloudGA__DeceasedDate__c
+  - HealthCloudGA__Gender__c
+  - HealthCloudGA__IndividualType__c
+  - HealthCloudGA__MedicalRecordNumber__c
+  - HealthCloudGA__Monitored_at_Home__c
+  - HealthCloudGA__PreferredName__c
+  - HealthCloudGA__PrimaryLanguage__c
+  - HealthCloudGA__SecondaryLanguage__c
+  - HealthCloudGA__SourceSystemId__c
+  - HealthCloudGA__SourceSystem__c
+  - HealthCloudGA__StatusGroup__c
+  - HealthCloudGA__Testing_Status__c
+  - HealthCloudGA__TotalReferrals__c
+  - HomePhone
+  - Jigsaw
+  - LastName
+  - LeadSource
+  - MailingCity
+  - MailingCountry
+  - MailingGeocodeAccuracy
+  - MailingLatitude
+  - MailingLongitude
+  - MailingPostalCode
+  - MailingState
+  - MailingStreet
+  - MaritalStatus
+  - MobilePhone
+  - OtherCity
+  - OtherCountry
+  - OtherGeocodeAccuracy
+  - OtherLatitude
+  - OtherLongitude
+  - OtherPhone
+  - OtherPostalCode
+  - OtherState
+  - OtherStreet
+  - Phone
+  - Pronouns
+  - Salutation
+  - SequenceInMultipleBirth
+  - Title
+Insert Account:
+  sf_object: Account
+  table: Account
+  fields:
+  - Description
+  - Fax
+  - Name
+  - AccountNumber
+  - Phone
+  - Rating
+  - Site
+  - AccountSource
+  - Type
+  - HealthCloudGA__Active__c
+  - IsActive
+  - AnnualRevenue
+  - PersonAssistantName
+  - PersonAssistantPhone
+  - BillingCity
+  - BillingCountry
+  - BillingGeocodeAccuracy
+  - BillingLatitude
+  - BillingLongitude
+  - BillingState
+  - BillingStreet
+  - BillingPostalCode
+  - PersonBirthdate
+  - HealthCloudGA__ConditionStatus__pc
+  - HealthCloudGA__ConvertedReferrals__pc
+  - HealthCloudGA__CountryOfBirth__pc
+  - HealthCloudGA__CreatedFromLead__pc
+  - Jigsaw
+  - HealthCloudGA__DeceasedDate__pc
+  - PersonDeceasedDate
+  - PersonDepartment
+  - HealthCloudGA__Disabled__c
+  - PersonDoNotCall
+  - EffectiveDate
+  - PersonEmail
+  - PersonEmailBouncedDate
+  - PersonEmailBouncedReason
+  - PersonHasOptedOutOfEmail
+  - NumberOfEmployees
+  - EndDate
+  - HealthCloudGA__EnrollmentType__c
+  - PersonHasOptedOutOfFax
+  - FirstName
+  - HealthCloudGA__Gender__pc
+  - PersonGender
+  - PersonGenderIdentity
+  - PersonHomePhone
+  - HealthCloudGA__IndividualId__c
+  - HealthCloudGA__IndividualType__c
+  - HealthCloudGA__IndividualType__pc
+  - Industry
+  - HealthCloudGA__Institution__c
+  - LastName
+  - PersonLeadSource
+  - HealthCloudGA__LowIncome__c
+  - PersonMailingCity
+  - PersonMailingCountry
+  - PersonMailingGeocodeAccuracy
+  - PersonMailingLatitude
+  - PersonMailingLongitude
+  - PersonMailingState
+  - PersonMailingStreet
+  - PersonMailingPostalCode
+  - PersonMaritalStatus
+  - HealthCloudGA__MedicaidEligibilityStatus__c
+  - HealthCloudGA__MedicalRecordNumber__c
+  - HealthCloudGA__MedicalRecordNumber__pc
+  - HealthCloudGA__MedicareEnrollee__c
+  - PersonMobilePhone
+  - HealthCloudGA__Monitored_at_Home__pc
+  - PersonSequenceInMultipleBirth
+  - HealthCloudGA__OREC__c
+  - PersonOtherCity
+  - PersonOtherCountry
+  - PersonOtherGeocodeAccuracy
+  - PersonOtherLatitude
+  - PersonOtherLongitude
+  - PersonOtherPhone
+  - PersonOtherState
+  - PersonOtherStreet
+  - PersonOtherPostalCode
+  - Ownership
+  - HealthCloudGA__PayerType__c
+  - HealthCloudGA__PreferredName__pc
+  - HealthCloudGA__PrimaryLanguage__pc
+  - PersonPronouns
+  - Salutation
+  - HealthCloudGA__SecondaryLanguage__pc
+  - ShippingCity
+  - ShippingCountry
+  - ShippingGeocodeAccuracy
+  - ShippingLatitude
+  - ShippingLongitude
+  - ShippingState
+  - ShippingStreet
+  - ShippingPostalCode
+  - Sic
+  - SicDesc
+  - HealthCloudGA__SourceSystem__c
+  - HealthCloudGA__SourceSystem__pc
+  - HealthCloudGA__SourceSystemId__c
+  - HealthCloudGA__SourceSystemId__pc
+  - SourceSystemIdentifier
+  - SourceSystemModifiedDate
+  - HealthCloudGA__StatusGroup__pc
+  - HealthCloudGA__TaxId__c
+  - HealthCloudGA__Testing_Status__pc
+  - TickerSymbol
+  - PersonTitle
+  - HealthCloudGA__TotalReferrals__pc
+  - Website
+  - RecordTypeId
+  lookups:
+    HealthCloudGA__CarePlan__c:
+      table: Case
+      key_field: HealthCloudGA__CarePlan__c
+    PersonIndividualId:
+      table: Individual
+      key_field: PersonIndividualId
+    OperatingHoursId:
+      table: OperatingHours
+      key_field: OperatingHoursId
+    ParentId:
+      table: Account
+      key_field: ParentId
+      after: Insert Account
+    HealthCloudGA__PrimaryContact__c:
+      table: Contact
+      key_field: HealthCloudGA__PrimaryContact__c
